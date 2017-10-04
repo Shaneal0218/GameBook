@@ -17,105 +17,53 @@ Create you own empire with your most loyal allies.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Team: Shaneal Prasad and Chance Hernandez
-Length: 1 week sprint
+Length: 1.5 week sprint
 
-| Parameters | Value                | Description       | Example                         |
-|-----------:|----------------------|-------------------|---------------------------------|
-| Username   | String               | User desired name | "b00oo00m3r4ng"                 |
-| Firstname  | String               | User firstname    | "Shaneal"                       |
-| Lastname   | String               | User lastname     | "Prasad"                        |
-| Email      | String               | User email        | "shanealprasadsp@gmail.com"     |
-| Password   | String               | User password     | "************"                  |
-| Friends    | List of User Objects | User friends      | [{users Object},{users Object]] |
+User Model Example:
+
+| Parameters | Value                | Description         | Example                         |
+|-----------:|----------------------|---------------------|---------------------------------|
+| Username   | String               | User`s desired name | "b00oo00m3r4ng"                 |
+| Firstname  | String               | User`s firstname    | "Shaneal"                       |
+| Lastname   | String               | User`s lastname     | "Prasad"                        |
+| Email      | String               | User`s email        | "shanealprasadsp@gmail.com"     |
+| Password   | String               | User`s password     | "************"                  |
+| Friends    | List of User Objects | User`s friends      | [{users Object},{users Object]] |
+
 
 Clan Model Example: 
-{
-    Id: 1,
-    clanname: "Redwood Code Academy",
-    clanleader: [
-        {
-            Id: 1,
-            Username: "b00oo00m3r4ng",
-            Firstname: "Shaneal",
-            Lastname: "Prasad",
-            Email: "shanealprasadsp@gmail.com",
-            Password: *********,
-            ProfilePic: "picture.jpg",
-            Friends: [friends list]
-        }
-    ]
-    clanmembers: [
-        {
-            Id: 1,
-            Username: "b00oo00m3r4ng",
-            Firstname: "Shaneal",
-            Lastname: "Prasad",
-            Email: "shanealprasadsp@gmail.com",
-            Password: *********,
-            ProfilePic: "picture.jpg",
-            Friends: [friends list]
-        }
-    ]
-}
+
+| Parameters | Value  | Description         | Example                         |
+|-----------:|--------|---------------------|---------------------------------|
+| clanname   | String | Clan`s desired name | "Redwood Code Academy"          |
+| clanleader | String | Clan`s clan leader  | {users Object}                  |
+| clanmember | String | Clan`s clan members | [{users Object},{users Object}] |
 
 Clans Request Model Example:
-{
-    Id: 1,
-    user1: 
-    {
-        Id: 1,
-        Username: "b00oo00m3r4ng",
-        Firstname: "Shaneal",
-        Lastname: "Prasad",
-        Email: "shanealprasadsp@gmail.com",
-        Password: *********,
-        ProfilePic: "picture.jpg",
-        Friends: [friends list]
-    }
-    user2:
-    {
-        Id: 2,
-        Username: "CHAKA_CHAKA",
-        Firstname: "Chance",
-        Lastname: "Hernandez",
-        Email: "chance.hernandez24@gmail.com",
-        Password: *********,
-        ProfilePic: "picture.jpg",
-        Friends: [friends list]
-    }
-    clan:
-    {
-        {
-            Id: 1,
-            clanname: "Redwood Code Academy",
-            clanleader: 
-            [
-                {
-                    Id: 1,
-                    Username: "b00oo00m3r4ng",
-                    Firstname: "Shaneal",
-                    Lastname: "Prasad",
-                    Email: "shanealprasadsp@gmail.com",
-                    Password: *********,
-                    ProfilePic: "picture.jpg",
-                    Friends: [friends list]
-                }
-            ]
-            clanmembers: 
-            [
-                {
-                    Id: 1,
-                    Username: "b00oo00m3r4ng",
-                    Firstname: "Shaneal",
-                    Lastname: "Prasad",
-                    Email: "shanealprasadsp@gmail.com",
-                    Password: *********,
-                    ProfilePic: "picture.jpg",
-                    Friends: [friends list]
-                }
-            ]
-        }    
-    }
-}
+
+|  Parameters | Value          | Description         | Example                          |
+|------------:|----------------|---------------------|----------------------------------|
+| user1       | {users Object} | Clan`s desired name | "Redwood Code Academy"           |
+| user2       | {users Object} | Clan`s clan leader  | {users Object}                   |
+| clan        | {clans Object} | Clan`s clan members | [{users Object},{users Object}]  |
+| message     | String         | User messgae        | "I would love to join your clan" |
+| RequestType | String         | Request type        | "Clan Request"                   |
+
+Direct Messages Model Example: 
+
+|  Parameters | Value          | Description                  | Example                                           |
+|------------:|----------------|------------------------------|---------------------------------------------------|
+| user1       | {users Object} | "User sending the request"   | {users Object}                                    |
+| user2       | {users Object} | "User receiving the request" | {users Object}                                    |
+| RequestType | String         | Clan`s clan members          | "Direct Message"                                  |
+| message     | String         | User message                 | "Hey, have you checked out Redwood Code Academy?" |
+
+Friend Request Model Example:
+
+|  Parameters | Value          | Description                  | Example          |
+|------------:|----------------|------------------------------|------------------|
+| user1       | {users Object} | "User sending the request"   | {users Object}   |
+| user2       | {users Object} | "User receiving the request" | {users Object}   |
+| RequestType | String         | "Request Type"               | "Friend Request" |
 
 Technologies Used: HTML5, CSS3, Javascript, AngularJS, C#, ASP.Net MVC, and Entity Framework.
