@@ -19,4 +19,103 @@ Create you own empire with your most loyal allies.
 Team: Shaneal Prasad and Chance Hernandez
 Length: 1 week sprint
 
+| Parameters | Value                | Description       | Example                         |
+|-----------:|----------------------|-------------------|---------------------------------|
+| Username   | String               | User desired name | "b00oo00m3r4ng"                 |
+| Firstname  | String               | User firstname    | "Shaneal"                       |
+| Lastname   | String               | User lastname     | "Prasad"                        |
+| Email      | String               | User email        | "shanealprasadsp@gmail.com"     |
+| Password   | String               | User password     | "************"                  |
+| Friends    | List of User Objects | User friends      | [{users Object},{users Object]] |
+
+Clan Model Example: 
+{
+    Id: 1,
+    clanname: "Redwood Code Academy",
+    clanleader: [
+        {
+            Id: 1,
+            Username: "b00oo00m3r4ng",
+            Firstname: "Shaneal",
+            Lastname: "Prasad",
+            Email: "shanealprasadsp@gmail.com",
+            Password: *********,
+            ProfilePic: "picture.jpg",
+            Friends: [friends list]
+        }
+    ]
+    clanmembers: [
+        {
+            Id: 1,
+            Username: "b00oo00m3r4ng",
+            Firstname: "Shaneal",
+            Lastname: "Prasad",
+            Email: "shanealprasadsp@gmail.com",
+            Password: *********,
+            ProfilePic: "picture.jpg",
+            Friends: [friends list]
+        }
+    ]
+}
+
+Clans Request Model Example:
+{
+    Id: 1,
+    user1: 
+    {
+        Id: 1,
+        Username: "b00oo00m3r4ng",
+        Firstname: "Shaneal",
+        Lastname: "Prasad",
+        Email: "shanealprasadsp@gmail.com",
+        Password: *********,
+        ProfilePic: "picture.jpg",
+        Friends: [friends list]
+    }
+    user2:
+    {
+        Id: 2,
+        Username: "CHAKA_CHAKA",
+        Firstname: "Chance",
+        Lastname: "Hernandez",
+        Email: "chance.hernandez24@gmail.com",
+        Password: *********,
+        ProfilePic: "picture.jpg",
+        Friends: [friends list]
+    }
+    clan:
+    {
+        {
+            Id: 1,
+            clanname: "Redwood Code Academy",
+            clanleader: 
+            [
+                {
+                    Id: 1,
+                    Username: "b00oo00m3r4ng",
+                    Firstname: "Shaneal",
+                    Lastname: "Prasad",
+                    Email: "shanealprasadsp@gmail.com",
+                    Password: *********,
+                    ProfilePic: "picture.jpg",
+                    Friends: [friends list]
+                }
+            ]
+            clanmembers: 
+            [
+                {
+                    Id: 1,
+                    Username: "b00oo00m3r4ng",
+                    Firstname: "Shaneal",
+                    Lastname: "Prasad",
+                    Email: "shanealprasadsp@gmail.com",
+                    Password: *********,
+                    ProfilePic: "picture.jpg",
+                    Friends: [friends list]
+                }
+            ]
+        }    
+    }
+}
+
 Technologies Used: HTML5, CSS3, Javascript, AngularJS, C#, ASP.Net MVC, and Entity Framework.
