@@ -5,21 +5,13 @@ Front-End-
 
 Back-End-
     Our backend was created with C#, ASP.NET, and the Entity Framework. Our main functionality of our backend was to populate our front-end with information. We made user,clan,friend request,direct message, and clan request models. One of biggest challenges was creating and understanding how request object`s worked. Each request object had to have a relationship between either a user and user or user and clan. With the friends request model we had to do user and user. Once the relationship is made in the frontend and sent to the backend this model is created and injected into our friend request list which is then able to be populated in our frontend. When a user accepts the request it is sent back to the backend where our .NET MVC Controller handles our funtionality. The controller recieves a fromUserId and toUserId which then pulls the user object from our users list and adds each user to each others friends list.
-    
-<img src="./READMEPic/login.png">
-Login in if you already have a user created.
-<img src="./READMEPic/signup.png">
-Sign up if you don`t already have an account.
-<img src="./READMEPic/homepage.png">
-Homepage where you can view the top 10 Esport news trending right now with the slideshow.
-<img src="./READMEPic/friend.png">
-Find a friend near your to connect to.
-<img src="./READMEPic/findfriend.png">
-Once you have found a friend send them a friend request.
-<img src="./READMEPic/clanr.png">
-Once you have found friends maybe its time to build your own empire.
-<img src="./READMEPic/clan.png">
-Create you own empire with your most loyal allies.
+
+<img class="col-md-6 readme-img" src="./READMEPic/login.png">
+<img class="col-md-6 readme-img" src="./READMEPic/homepage.png">
+<img class="col-md-6 readme-img" src="./READMEPic/findfriend.png">
+<img class="col-md-6 readme-img" src="./READMEPic/clanr.png">
+
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Team: Shaneal Prasad and Chance Hernandez

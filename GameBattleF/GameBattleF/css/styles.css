@@ -456,3 +456,8 @@ svg {
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
 }
+
+.readme-img {
+  width: 100px;
+  height: 100px;
+}
