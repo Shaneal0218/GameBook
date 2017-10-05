@@ -1,5 +1,11 @@
-GameBook is a social media platform that brings together gamers from all around the world. Create a profile find your friends and build your own gaming empire.
+GameBook is a social media platform that brings together gamers from all around the world. Create a profile find your friends and build your own gaming empire. 
 
+Front-End-
+    Our frontend was created with HTML, CSS, BootStrap, JavaScript, and AngularJS. Our main functionality of our frontend was to send and retrieve data to the backend so our frontend can use CRUD functions to dynamically update our website. Some of the dynamic features we created were friends lists and notifications. When a user logs in our AngularJS Controller pulls data from our Angular Service which is then connected to our backend that has a list of requests. these requests are then filtered with ng-ifs that check if our current user is the same as user1 on our requests object. If they match they our then display on our website under the user`s notifications. 
+
+Back-End-
+    Our backend was created with C#, ASP.NET, and the Entity Framework. Our main functionality of our backend was to populate our front-end with information. We made user,clan,friend request,direct message, and clan request models. One of biggest challenges was creating and understanding how request object`s worked. Each request object had to have a relationship between either a user and user or user and clan. With the friends request model we had to do user and user. Once the relationship is made in the frontend and sent to the backend this model is created and injected into our friend request list which is then able to be populated in our frontend. When a user accepts the request it is sent back to the backend where our .NET MVC Controller handles our funtionality. The controller recieves a fromUserId and toUserId which then pulls the user object from our users list and adds each user to each others friends list.
+    
 <img src="./READMEPic/login.png">
 Login in if you already have a user created.
 <img src="./READMEPic/signup.png">
