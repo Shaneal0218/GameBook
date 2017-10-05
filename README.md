@@ -16,14 +16,14 @@ GameBook is a social media platform that brings together gamers from all around 
 | Entity Framework |
 
 
-<img src="./READMEPic/homepage.png" align="left" height="400" width="450">
-<img src="./READMEPic/findfriend.png" align="right" height="400" width="450">
-<img src="./READMEPic/clanr.png" height="400" width="450">
+<img src="./READMEPic/homepage.png" align="left" height="350" width="400">
+<img src="./READMEPic/findfriend.png" align="right" height="350" width="400">
+<img src="./READMEPic/clanr.png" height="350" width="400">
 
 Team: Shaneal Prasad and Chance Hernandez
 Length: 1.5 week sprint
 
-User Model Example:
+<h3>User Model Example:</h3>
 
 | Parameters | Value                | Description         | Example                         |
 |-----------:|----------------------|---------------------|---------------------------------|
@@ -35,7 +35,7 @@ User Model Example:
 | Friends    | List of User Objects | User`s friends      | [{users Object},{users Object]] |
 
 
-Clans Request Model Example:
+<h3>Clans Request Model Example:</h3>
 
 |  Parameters | Value          | Description         | Example                          |
 |------------:|----------------|---------------------|----------------------------------|
@@ -45,7 +45,7 @@ Clans Request Model Example:
 | message     | String         | User messgae        | "I would love to join your clan" |
 | RequestType | String         | Request type        | "Clan Request"                   |
 
-Direct Messages Model Example: 
+<h3>Direct Messages Model Example:</h3>
 
 |  Parameters | Value          | Description                  | Example                                           |
 |------------:|----------------|------------------------------|---------------------------------------------------|
@@ -54,7 +54,9 @@ Direct Messages Model Example:
 | RequestType | String         | Clan`s clan members          | "Direct Message"                                  |
 | message     | String         | User message                 | "Hey, have you checked out Redwood Code Academy?" |
 
-Challenges
-    -understanding how to make requests functional
-    -implementing Esports API
-    -implementing a 3rd party slider
+<h3>Challenges</h3>
+    <ul>
+        <li>understanding how to make requests functional</li>
+        <li>implementing Esports API</li>
+        <li>implementing a 3rd party slider</li>
+    </ul>
