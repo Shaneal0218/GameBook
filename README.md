@@ -4,28 +4,20 @@
 
 GameBook is a social media platform that brings together gamers from all around the world. Create a profile find your friends and build your own gaming empire. 
 
-\begin{table}[]
-\centering
-\caption{My caption}
-\label{my-label}
-\begin{tabular}{|l|}
-\hline
-\multicolumn{1}{|r|}{Technologies} \\ \hline
-HTML                               \\ \hline
-CSS                                \\ \hline
-Bootstrap                          \\ \hline
-JavaScript                         \\ \hline
-AngularJS                          \\ \hline
-C\#                                \\ \hline
-ASP.NET MVC                        \\ \hline
-Entity Framework                   \\ \hline
-\end{tabular}
-\end{table}
+|  Technologies    |
+|-----------------:|
+| HTML             |
+| CSS              |
+| Bootstrap        |
+| JavaScript       |
+| AngularJS        |
+| C#               |
+| ASP.NET MVC      |
+| Entity Framework |
 
-<img src="./READMEPic/homepage.png" align="left" height="48" width="48">
-<img src="./READMEPic/findfriend.png" align="left" height="48" width="48">
-<img src="./READMEPic/clanr.png" align="left" height="48" width="48">
-
+<img src="./READMEPic/homepage.png" align="left" height="150" width="150">
+<img src="./READMEPic/findfriend.png" align="left" height="150" width="150">
+<img src="./READMEPic/clanr.png" align="left" height="150" width="150">
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
