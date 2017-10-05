@@ -15,10 +15,11 @@ GameBook is a social media platform that brings together gamers from all around 
 | ASP.NET MVC      |
 | Entity Framework |
 
-<img src="./READMEPic/homepage.png" align="left" height="150" width="150">
-<img src="./READMEPic/findfriend.png" align="left" height="150" width="150">
-<img src="./READMEPic/clanr.png" align="left" height="150" width="150">
-
+<div>
+    <img src="./READMEPic/homepage.png" align="left" height="350" width="350">
+    <img src="./READMEPic/findfriend.png" align="left" height="350" width="350">
+    <img src="./READMEPic/clanr.png" align="left" height="350" width="350">
+</div>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Team: Shaneal Prasad and Chance Hernandez
