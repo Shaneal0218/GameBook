@@ -18,10 +18,12 @@ GameBook is a social media platform that brings together gamers from all around 
 
 <img src="./READMEPic/homepage.png" align="left" height="350" width="400">
 <img src="./READMEPic/findfriend.png" align="right" height="350" width="400">
-<img src="./READMEPic/clanr.png" height="350" width="400">
 
-Team: Shaneal Prasad and Chance Hernandez
-Length: 1.5 week sprint
+<img src="./READMEPic/clan.png" align="left" height="350" width="400">
+<img src="./READMEPic/clanr.png" align="right" height="350" width="400">
+
+<h2>Team: Shaneal Prasad and Chance Hernandez</h2>
+<h3>Length: 1.5 week sprint</h3>
 
 <h3>User Model Example:</h3>
 
