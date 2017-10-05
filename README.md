@@ -16,9 +16,9 @@ GameBook is a social media platform that brings together gamers from all around 
 | Entity Framework |
 
 
-<img src="./READMEPic/homepage.png" height="400" width="400">
-<img src="./READMEPic/findfriend.png" height="400" width="400">
-<img src="./READMEPic/clanr.png" height="400" width="400">
+<img src="./READMEPic/homepage.png" align="left" height="400" width="450">
+<img src="./READMEPic/findfriend.png" align="right" height="400" width="450">
+<img src="./READMEPic/clanr.png" height="400" width="450">
 
 Team: Shaneal Prasad and Chance Hernandez
 Length: 1.5 week sprint
