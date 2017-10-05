@@ -1,15 +1,30 @@
+<img class="col-md-6 readme-img" src="./READMEPic/login.png">
+
+<h1>GameBook</h1>
+
 GameBook is a social media platform that brings together gamers from all around the world. Create a profile find your friends and build your own gaming empire. 
 
-Front-End-
-    Our frontend was created with HTML, CSS, BootStrap, JavaScript, and AngularJS. Our main functionality of our frontend was to send and retrieve data to the backend so our frontend can use CRUD functions to dynamically update our website. Some of the dynamic features we created were friends lists and notifications. When a user logs in our AngularJS Controller pulls data from our Angular Service which is then connected to our backend that has a list of requests. these requests are then filtered with ng-ifs that check if our current user is the same as user1 on our requests object. If they match they our then display on our website under the user`s notifications. 
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{|l|}
+\hline
+\multicolumn{1}{|r|}{Technologies} \\ \hline
+HTML                               \\ \hline
+CSS                                \\ \hline
+Bootstrap                          \\ \hline
+JavaScript                         \\ \hline
+AngularJS                          \\ \hline
+C\#                                \\ \hline
+ASP.NET MVC                        \\ \hline
+Entity Framework                   \\ \hline
+\end{tabular}
+\end{table}
 
-Back-End-
-    Our backend was created with C#, ASP.NET, and the Entity Framework. Our main functionality of our backend was to populate our front-end with information. We made user,clan,friend request,direct message, and clan request models. One of biggest challenges was creating and understanding how request object`s worked. Each request object had to have a relationship between either a user and user or user and clan. With the friends request model we had to do user and user. Once the relationship is made in the frontend and sent to the backend this model is created and injected into our friend request list which is then able to be populated in our frontend. When a user accepts the request it is sent back to the backend where our .NET MVC Controller handles our funtionality. The controller recieves a fromUserId and toUserId which then pulls the user object from our users list and adds each user to each others friends list.
-
-<img class="col-md-6 readme-img" src="./READMEPic/login.png">
-<img class="col-md-6 readme-img" src="./READMEPic/homepage.png">
-<img class="col-md-6 readme-img" src="./READMEPic/findfriend.png">
-<img class="col-md-6 readme-img" src="./READMEPic/clanr.png">
+<img src="./READMEPic/homepage.png" align="left" height="48" width="48">
+<img src="./READMEPic/findfriend.png" align="left" height="48" width="48">
+<img src="./READMEPic/clanr.png" align="left" height="48" width="48">
 
 
 
@@ -28,14 +43,6 @@ User Model Example:
 | Password   | String               | User`s password     | "************"                  |
 | Friends    | List of User Objects | User`s friends      | [{users Object},{users Object]] |
 
-
-Clan Model Example: 
-
-| Parameters | Value  | Description         | Example                         |
-|-----------:|--------|---------------------|---------------------------------|
-| clanname   | String | Clan`s desired name | "Redwood Code Academy"          |
-| clanleader | String | Clan`s clan leader  | {users Object}                  |
-| clanmember | String | Clan`s clan members | [{users Object},{users Object}] |
 
 Clans Request Model Example:
 
@@ -56,12 +63,7 @@ Direct Messages Model Example:
 | RequestType | String         | Clan`s clan members          | "Direct Message"                                  |
 | message     | String         | User message                 | "Hey, have you checked out Redwood Code Academy?" |
 
-Friend Request Model Example:
-
-|  Parameters | Value          | Description                  | Example          |
-|------------:|----------------|------------------------------|------------------|
-| user1       | {users Object} | "User sending the request"   | {users Object}   |
-| user2       | {users Object} | "User receiving the request" | {users Object}   |
-| RequestType | String         | "Request Type"               | "Friend Request" |
-
-Technologies Used: HTML5, CSS3, Javascript, AngularJS, C#, ASP.Net MVC, and Entity Framework.
+Challenges
+    -understanding how to make requests functional
+    -implementing Esports API
+    -implementing a 3rd party slider
