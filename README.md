@@ -1,4 +1,4 @@
-<img class="col-md-6 readme-img" src="./READMEPic/login.png">
+<img src="./READMEPic/login.png">
 
 <h1>GameBook</h1>
 
